@@ -24,6 +24,8 @@ with file2:
         x_train_list.append(row[4])
         y_train_list.append(row[5])   
     
+x_test_list=np.array(x_test_list)
+y_test_list=np.array(y_test_list)
 
-
-
+x_train_list=np.array(x_train_list)
+y_train_list=np.array(y_train_list)
