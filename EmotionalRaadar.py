@@ -2,10 +2,6 @@
 import streamlit as st
 import random
 
-header = st.container()
-dataset = st.container()
-features = st.container()
-modelTraining = st.container()
 
 st.title('This is a Tweeter Outrage Radar.')
 st.text('Gotta emotionally discard daily Internet bull****')
